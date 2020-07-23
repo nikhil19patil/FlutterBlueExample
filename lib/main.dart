@@ -3,8 +3,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_blue/flutter_blue.dart';
 
+import 'flutter_blue_app.dart';
+
 void main() {
-  runApp(BluetoothApp());
+//  runApp(BluetoothApp());
+  runApp(FlutterBlueApp());
 }
 
 class BluetoothApp extends StatelessWidget {
